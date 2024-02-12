@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Укрпошта</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@400;700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header__first-block">
+      <a href="#"><img src="img/logo.png" alt="logo"></a>
+      <div class="header__contacts">
+        <a class="header__number-phone" href="tel:0800300545">0 800 300 545</a>
+        <a class="header__email" href="mailto:ukrposhta@ukrposhta.ua">ukrposhta@ukrposhta.ua</a>
+        <span>контакт-центр</span>
+      </div>
+    </div>
+    <div class="header__second-block">
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#" class="menu-link">Трекінг</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Послуги</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Тарифи</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Відділення</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Філателія</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Кар’єра</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Бізнесу</a></li>
+        </ul>
+      </nav>
+      <div class="menu__burger">
+        <div class="burger" onclick="toggleMenu()">☰</div>
+        <ul class="b-menu-list" id="menuItems">
+          <li class="menu-item"><a href="#" class="menu-link">Трекінг</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Послуги</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Тарифи</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Відділення</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Філателія</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Кар’єра</a></li>
+          <li class="menu-item"><a href="#" class="menu-link">Бізнесу</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</header>
+<main class="main">
+  <section class="slick-list">
+    <div class="container">
+      <div class="slick-list__inner">
+        <div class="slick-list-info">
+          <h1>Оформлюйте передплату!</h1>
+          <p>Досхочу вибирайте й призи вигравайте</p>
+
+        </div>
+        <picture class="slick-list__img">
+          <source media="(max-width: 768px)" srcset="img/slick-mob.jpg">
+          <img src="img/slick-desctop.jpg" alt="">
+        </picture>
+        <div class="search">
+          <input type="text" placeholder="Введіть номер відправлення">
+        </div>
+        <div class="slick-list__bottom-cards">
+          <div class="slick-list__card">
+            <img src="img/slick-icon.png" alt="">
+            <h3>Розрахувати</h3>
+          </div>
+          <div class="slick-list__card">
+
+            <img src="img/slick-icon2.png" alt="">
+            <h3>Оформити</h3>
+          </div>
+          <div class="slick-list__card">
+            <img src="img/slick-icon3.png" alt="">
+            <h3>Знайти індекс</h3>
+          </div>
+          <div class="slick-list__card">
+            <img src="img/slick-icon4.png" alt="">
+            <h3>Передплатити</h3>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services-block">
+    <div class="container">
+      <div class="services-block__inner">
+        <div class="services-block__info">
+          <h2>Поштові послуги</h2>
+          <p>Замовляйте доставку у найвіддаленіші куточки України, відправляйте й отримуйте посилки з усього світу і
+            навпаки.</p>
+          <br>
+          <p>Виберіть доставку, яка найкраще підійде вам за термінами пересилання і вартістю.</p>
+        </div>
+        <div class="services-block__cards">
+          <div class="services-block__card image ">
+            <h3>Доставка по Україні</h3>
+            <a href="#">Докладніше</a>
+          </div>
+          <div class="services-block__card image">
+            <h3>Доставка документів</h3>
+            <a href="#">Докладніше</a>
+          </div>
+          <div class="services-block__card image">
+            <h3>Доставка з інтернет-магазинів</h3>
+            <a href="#">Докладніше</a>
+          </div>
+          <div class="services-block__card image">
+            <h3>Доставка ліків</h3>
+            <a href="#">Докладніше</a>
+          </div>
+          <div class="services-block__card image">
+            <h3>Доставка по світу</h3>
+            <a href="#">Докладніше</a>
+          </div>
+          <div class="services-block__card image">
+            <h3>Доставка в Україну</h3>
+            <a href="#">Докладніше</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+

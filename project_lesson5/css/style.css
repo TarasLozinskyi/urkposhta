@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #F8F8F8;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #212529;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+
+/*---------------header---------------*/
+
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__first-block {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 10px 0;
+}
+
+.header__first-block a img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__number-phone {
+    color: #0e2f4b;
+    font-weight: 700;
+    text-align: right;
+}
+
+.header__email {
+    font-family: 'Open Sans', sans-serif;
+    color: #99a2aa;
+    text-align: right;
+}
+
+.header__contacts span {
+    font-family: 'Open Sans', sans-serif;
+    color: #99a2aa;
+    text-align: right;
+}
+
+.header__second-block {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.menu__burger {
+    display: none;
+    position: relative;
+}
+
+.burger {
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.b-menu-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.menu-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.menu-item {
+
+    height: 100%;
+    border-bottom: 2px solid transparent;
+}
+
+.menu-item:hover {
+
+    border-bottom: 2px solid #99A2AA;
+    transition: all .5s linear;
+
+}
+
+.menu-link {
+    color: #99A2AA;
+    line-height: 60px; /* 375% */
+
+}
+
+.active {
+    display: flex;
+}
+
+/*---------------------slick-list-------------------------*/
+.slick-list {
+    background: #FEC524;
+    height: 450px;
+}
+
+.slick-list__inner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 450px;
+    width: 100%;
+}
+
+.slick-list-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    padding-top: 45px;
+    /*width: 50%;*/
+}
+
+.slick-list-info h1 {
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+}
+
+.slick-list__img {
+
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+}
+
+.slick-list__img img {
+    height: 450px;
+}
+
+.slick-list-info p {
+    color: #0E2F4B;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px; /* 187.5% */
+    padding-top: 30px;
+
+}
+
+.search {
+    width: 100%;
+    position: absolute;
+    bottom: 89px;
+    z-index: 20;
+
+}
+
+.search input {
+
+
+    height: 72px;
+    width: 50%;
+    border: none;
+    padding: 0px 230px 0px 30px;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    outline: none;
+    box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
+    color: #757575;
+    letter-spacing: 0.5px;
+    font-family: Rubik, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.slick-list__bottom-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    position: absolute;
+    bottom: -45px;
+    z-index: 10;
+    width: 100%;
+}
+
+.slick-list__card {
+    display: flex;
+    width: 270px;
+    padding: 25.84px 49.048px 24.16px 49.41px;
+    justify-content: center;
+    align-items: center;
+    gap: 23.93px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 3px 35px 0px rgba(95, 98, 102, 0.17);
+}
+
+/*---------------------services-block------------------*/
+
+.services-block__inner {
+    padding-top: 100px;
+    display: flex;
+    /*width: 100%;*/
+    justify-content: space-between;
+
+}
+
+.services-block__info {
+    width: 30%;
+}
+
+.services-block__info h2 {
+    color: #0e2f4b;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    padding: 30px 0;
+}
+
+.services-block__info p {
+    color: #0E2F4B;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px; /* 187.5% */
+}
+
+.services-block__cards {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+
+}
+
+.services-block__cards .image:first-child {
+    background-image: url("../img/svg/one.svg");
+}
+
+.services-block__cards .image:nth-child(2) {
+    background-image: url("../img/svg/two.svg");
+}
+
+.services-block__cards .image:nth-child(3) {
+    background-image: url("../img/svg/three.svg");
+}
+
+.services-block__cards .image:nth-child(4) {
+    background-image: url("../img/svg/four.svg");
+}
+
+.services-block__cards .image:nth-child(5) {
+    background-image: url("../img/svg/five.svg");
+}
+
+.services-block__cards .image:last-child {
+    background-image: url("../img/svg/six.svg");
+}
+
+.services-block__cards .image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y:bottom ;
+
+}
+
+.services-block__card {
+    width: 47%;
+    background: #fff;
+    height: 180px;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+.services-block__card h3 {
+    color: #0E2F4B;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    padding-bottom: 15px;
+}
+
+.services-block__card a {
+    color: #0E2F4B;
+    font-weight: 700;
+
+}
+.services-block__card a:after {
+    content: '>';
+    vertical-align: middle;
+    margin-left: 5px;
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .slick-list__bottom-cards {
+        bottom: -136px;
+        row-gap: 20px;
+    }
+
+    .slick-list__card {
+        width: 49%;
+
+    }
+
+    .services-block__inner {
+        padding-top: 180px;
+        display: flex;
+        flex-direction: column;
+    }
+    .services-block__info {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .services-block__cards {
+        width: 100%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu__burger {
+        display: flex;
+        background: #fff;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .menu-item, .menu-item:hover {
+        border: none;
+    }
+
+    .menu-link {
+        color: #0e2f4b;
+        padding: 20px 0 0;
+        text-align: left;
+    }
+    .services-block__card {
+        width: 47%;
+        background: #fff;
+        height: 150px;
+        border-radius: 12px;
+        padding: 20px;
+
+    }
+    .services-block__card h3 {
+        font-size: 20px;
+        line-height: 26px; /* 133.333% */
+        padding-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .slick-list__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .slick-list-info {
+        position: static;
+        width: 100%;
+        padding-top: 20px;
+
+    }
+
+    .slick-list-info h1 {
+        font-size: 22px;
+        line-height: 30px; /* 136.364% */
+    }
+
+    .slick-list-info p {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+
+    .slick-list__img {
+        position: static;
+        width: 100%;
+    }
+
+
+    .slick-list__img img {
+        height: 170px;
+    }
+
+    .search input {
+        height: 60px;
+        font-size: 14px;
+        padding: 18px 20px;
+        line-height: 24px;
+
+    }
+
+    .slick-list__bottom-cards {
+        bottom: -149px;
+
+    }
+
+    .slick-list__card {
+        font-size: 14px;
+    }
+    .services-block__info h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 560px) {
+    .container {
+        max-width: 480px;
+    }
+
+    .header__first-block a img {
+        max-width: 114px;
+
+    }
+
+    .slick-list__img img {
+        height: 150px;
+    }
+
+    .slick-list__bottom-cards {
+        bottom: -163px;
+
+    }
+
+    .slick-list__card {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+
+    }
+    .services-block__cards {
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+
+    }
+}
+
+
+
+
+
+
+
