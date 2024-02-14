@@ -1,0 +1,74 @@
+<svg id="PostalTransfersSquareSvg" width="270px" height="270px" viewBox="0 0 270 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="pathSquarePostalTransfers-2" x="0" y="0" width="270" height="270" rx="10"></rect>
+        <linearGradient id="linearGradientSquarePostalTransfers-1" x1="76.4691071%" y1="70.0207007%" x2="-39.8123681%" y2="39.4728118%">
+            <stop stop-color="#93A9D6" offset="0%"></stop>
+            <stop stop-color="#E0E7F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient id="linearGradientSquarePostalTransfers-2" x1="76.4691071%" y1="70.0207007%" x2="-39.8123681%" y2="39.4728118%">
+            <stop stop-color="#93A9D6" offset="0%"></stop>
+            <stop stop-color="#E0E7F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient id="linearGradientSquarePostalTransfers-3" x1="-125.099786%" y1="216.14503%" x2="435.209036%" y2="119.812224%">
+            <stop stop-color="#6BA3DE" offset="0%"></stop>
+            <stop stop-color="#202873" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient id="linearGradientSquarePostalTransfers-4" x1="81.092623%" y1="68.4974946%" x2="-63.9602079%" y2="50%">
+            <stop stop-color="#93A9D6" offset="0%"></stop>
+            <stop stop-color="#E0E7F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient id="linearGradientSquarePostalTransfers-5" x1="105.871315%" y1="39.4153351%" x2="-1.28551203%" y2="39.4153357%">
+            <stop stop-color="#93A9D6" offset="0%"></stop>
+            <stop stop-color="#E0E7F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient id="linearGradientSquarePostalTransfers-6" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop stop-color="#F1F4FB" offset="0%"></stop>
+            <stop stop-color="#CED6EA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-102.000000, -3172.000000)">
+            <g transform="translate(102.000000, 3172.000000)">
+                <mask id="maskSquarePostalTransfers-7" fill="white">
+                    <use xlink:href="#pathSquarePostalTransfers-2"></use>
+                </mask>
+                <use id="MaskPostalTransfersSquare" fill="#FFFFFF" xlink:href="#pathSquarePostalTransfers-2"></use>
+                <polygon id="RectanglePostalTransfers" fill="url(#linearGradientSquarePostalTransfers-1)" mask="url(#maskSquarePostalTransfers-7)" points="0 249.983606 290 80.7575869 290 300 0 300"></polygon>
+                <g mask="url(#maskSquarePostalTransfers-7)">
+                    <g transform="translate(56.000000, 128.000000)">
+                        <g stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M226.005098,85.1368636 L147.213926,130.889085 C141.860137,133.998364 133.143047,133.998364 127.75377,130.889085 L4.13011719,59.5718352 C1.41863281,58.0070966 0.0637890625,55.9521989 0.070078125,53.900892 L2.30392962e-19,62.4541818 C-0.00583984375,64.5054886 1.34855469,66.5603864 4.06003906,68.125125 L127.684141,139.442824 C133.073418,142.552102 141.790508,142.551653 147.144297,139.442824 L225.935469,93.6906023 C228.593945,92.1465114 229.92498,90.1257273 229.930371,88.1018011 L230,79.5485114 C229.99416,81.5719886 228.664023,83.5927727 226.005098,85.1368636 Z" fill="#94A9D7" fill-rule="nonzero"></path>
+                            <path d="M225.937715,73.8757727 C231.326992,76.9846023 231.358887,82.0280341 226.004648,85.1364148 L147.213926,130.889085 C141.860137,133.998364 133.143047,133.998364 127.75377,130.889085 L4.13011719,59.5718352 C-1.25916016,56.4630057 -1.28701172,51.4177784 4.06677734,48.3085 L82.8579492,2.55627841 C88.2117383,-0.553 96.9252344,-0.550755682 102.314512,2.55852273 L225.937715,73.8757727 Z" fill="url(#linearGradientSquarePostalTransfers-2)" fill-rule="nonzero"></path>
+                        </g>
+                        <polyline fill="#29407A" fill-rule="nonzero" points="216.996914 90.3701648 73.8497656 7.78913068 53.8869336 19.3810341 197.034082 101.962068 216.996914 90.3701648"></polyline>
+                        <g stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(39.082031, 35.909091)">
+                            <polygon fill="#FFFFFF" fill-rule="nonzero" opacity="0.5" points="24.3427148 9.27442045 8.37208984 0.0614943182 0.298730469 4.74897727 16.2698047 13.9623523"></polygon>
+                            <polygon fill="#FFFFFF" fill-rule="nonzero" points="62.4081641 31.234625 29.6160938 12.3168182 21.5431836 17.00475 54.3352539 35.922108"></polygon>
+                        </g>
+                        <g stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(111.855469, 93.363636)">
+                            <path d="M37.2263086,9.96656818 C34.8989063,8.62401705 31.9812305,7.83536364 28.9624805,7.60060795 C29.555,10.0877614 28.2086914,12.6974545 24.9172656,14.6087159 C21.6253906,16.5199773 17.1215234,17.307733 12.8220508,16.9728807 C13.2375781,18.7194091 14.6094922,20.4057898 16.9368945,21.747892 C22.5772852,25.0021534 31.6932813,25.0043977 37.2972852,21.7501364 C42.9003906,18.4967727 42.8666992,13.2208295 37.2263086,9.96656818 Z" fill="url(#linearGradientSquarePostalTransfers-3)" fill-rule="nonzero"></path>
+                            <path d="M24.8462891,2.82469886 C19.2058984,-0.4295625 10.0934961,-0.4295625 4.48994141,2.82469886 C-1.11361328,6.07896023 -1.08396484,11.3526591 4.55597656,14.6064716 C6.88337891,15.9490227 9.80150391,16.7376761 12.8211523,16.9733295 C17.1201758,17.3081818 21.6244922,16.5204261 24.9163672,14.6091648 C28.2082422,12.6979034 29.5541016,10.0882102 28.961582,7.60105682 C28.5460547,5.85363068 27.1736914,4.16769886 24.8462891,2.82469886 Z" fill="url(#linearGradientSquarePostalTransfers-4)" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+                <g mask="url(#maskSquarePostalTransfers-7)">
+                    <g transform="translate(101.000000, 119.000000)">
+                        <g stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M226.005098,85.1368636 L147.213926,130.889085 C141.860137,133.998364 133.143047,133.998364 127.75377,130.889085 L4.13011719,59.5718352 C1.41863281,58.0070966 0.0637890625,55.9521989 0.070078125,53.900892 L2.30392962e-19,62.4541818 C-0.00583984375,64.5054886 1.34855469,66.5603864 4.06003906,68.125125 L127.684141,139.442824 C133.073418,142.552102 141.790508,142.551653 147.144297,139.442824 L225.935469,93.6906023 C228.593945,92.1465114 229.92498,90.1257273 229.930371,88.1018011 L230,79.5485114 C229.99416,81.5719886 228.664023,83.5927727 226.005098,85.1368636 Z" fill="#98ADD8" fill-rule="nonzero"></path>
+                            <path d="M225.937715,73.8757727 C231.326992,76.9846023 231.358887,82.0280341 226.004648,85.1364148 L147.213926,130.889085 C141.860137,133.998364 133.143047,133.998364 127.75377,130.889085 L4.13011719,59.5718352 C-1.25916016,56.4630057 -1.28701172,51.4177784 4.06677734,48.3085 L82.8579492,2.55627841 C88.2117383,-0.553 96.9252344,-0.550755682 102.314512,2.55852273 L225.937715,73.8757727 Z" fill="url(#linearGradientSquarePostalTransfers-5)" fill-rule="nonzero"></path>
+                        </g>
+                        <polygon fill="#344B89" fill-rule="nonzero" points="73.8497656 7.78913068 53.8869336 19.3810341 197.034082 101.962068 216.996914 90.3701648"></polygon>
+                        <g stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(39.082031, 35.909091)" opacity="0.800000012">
+                            <polygon fill="#FFFFFF" fill-rule="nonzero" points="24.3427148 9.27442045 8.37208984 0.0614943182 0.298730469 4.74897727 16.2698047 13.9623523"></polygon>
+                            <polygon fill="#FFFFFF" fill-rule="nonzero" points="62.4081641 31.234625 29.6160938 12.3168182 21.5431836 17.00475 54.3352539 35.922108"></polygon>
+                        </g>
+                        <g stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(111.855469, 93.363636)">
+                            <path d="M37.2263086,9.96656818 C34.8989063,8.62401705 31.9812305,7.83536364 28.9624805,7.60060795 C29.555,10.0877614 28.2086914,12.6974545 24.9172656,14.6087159 C21.6253906,16.5199773 17.1215234,17.307733 12.8220508,16.9728807 C13.2375781,18.7194091 14.6094922,20.4057898 16.9368945,21.747892 C22.5772852,25.0021534 31.6932813,25.0043977 37.2972852,21.7501364 C42.9003906,18.4967727 42.8666992,13.2208295 37.2263086,9.96656818 Z" fill="url(#linearGradientSquarePostalTransfers-3)" fill-rule="nonzero"></path>
+                            <path d="M24.8462891,2.82469886 C19.2058984,-0.4295625 10.0934961,-0.4295625 4.48994141,2.82469886 C-1.11361328,6.07896023 -1.08396484,11.3526591 4.55597656,14.6064716 C6.88337891,15.9490227 9.80150391,16.7376761 12.8211523,16.9733295 C17.1201758,17.3081818 21.6244922,16.5204261 24.9163672,14.6091648 C28.2082422,12.6979034 29.5541016,10.0882102 28.961582,7.60105682 C28.5460547,5.85363068 27.1736914,4.16769886 24.8462891,2.82469886 Z" fill="url(#linearGradientSquarePostalTransfers-6)" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
